@@ -35,7 +35,7 @@ set +x
 ##############################################################################
 # git clone
 cd $VIRTUAL_ENV
-echo "=== git clone repos in" `pwd`
+echo "=== clone git repos in" `pwd`
 for g in $GITS; do
     if [ ! -d $g ]; then
         set -x
